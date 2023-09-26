@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Number Guessing Game</string>
+    <string name="guess_the_number">Guess The Number !</string>
+    <string name="welcome">Welcome</string>
+    <string name="please_enter_your_name">Please enter your name</string>
+    <string name="your_name_here">Your name here</string>
+    <string name="start">Start</string>
+    <string name="guess_a_number_between">Guess a number between</string>
+    <string name="_1_to_100">(1 to 100)</string>
+    <string name="please_enter_a_number">Please enter a number</string>
+    <string name="number_here">Number here</string>
+    <string name="submit">Submit</string>
+    <string name="hay_congratulation">Hay, Congratulation</string>
+    <string name="result">Result</string>
+    <string name="finish">FINISH</string>
+    <string name="play_again">Play again</string>
+</resources>
