@@ -53,6 +53,8 @@ public class GameActivity extends AppCompatActivity {
                     } else {
                         Log.i("Value of guess", String.valueOf(Nguesses));
 //                        txtResult.setText("You guessed in "+Nguesses+ " attempts.");
+                        Toast.makeText(GameActivity.this, "You guessed in " + Nguesses + " attempts.", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(GameActivity.this, "You guessed in " + Nguesses + " attempts.", Toast.LENGTH_SHORT).show();
                         startActivity(intent);
                         finish();
                     }
