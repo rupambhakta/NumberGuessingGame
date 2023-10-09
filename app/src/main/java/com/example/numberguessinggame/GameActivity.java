@@ -32,7 +32,7 @@ public class GameActivity extends AppCompatActivity {
         txtResult = findViewById(R.id.txtResult);
 
         Intent intent = new Intent(this,resultActivity.class);
-        Intent getData = getIntent();
+        Intent getData = getIntent(); 
         String userName = getData.getStringExtra("userName");
         intent.putExtra("userName",userName);
         intent.putExtra("guess", Nguesses);
